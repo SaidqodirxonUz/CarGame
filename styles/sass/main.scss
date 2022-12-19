@@ -1,0 +1,260 @@
+$primary: #0095fff9;
+$secondary: #00c3ff;
+.srxuz {
+  color: crimson;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+
+.yol {
+  width: 60%;
+  height: 99vh;
+  background: darkblue;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.chiziq {
+  margin: 0 auto;
+  width: 0;
+  //   background: #000;
+  height: 96vh;
+  border-left: 1rem solid #fff;
+
+  border-left-style: dashed;
+  //   duration timing-function delay iteration-count direction
+  //     fill-mode
+}
+.animatsiya-chiziq {
+  height: 100vh;
+  animation: chiziq 3s infinite;
+}
+
+@keyframes chiziq {
+  10% {
+    transform: translateY(10px);
+  }
+  20% {
+    transform: translateY(20px);
+  }
+  30% {
+    transform: translateY(30px);
+  }
+  40% {
+    transform: translateY(40px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  60% {
+    transform: translateY(60px);
+  }
+  70% {
+    transform: translateY(70px);
+  }
+  80% {
+    transform: translateY(80px);
+  }
+  90% {
+    transform: translateY(90px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+.msh {
+  position: relative;
+}
+.moshina {
+  position: absolute;
+  top: -2rem;
+}
+
+.moshinacha {
+  position: absolute;
+  width: 10rem;
+  height: 18rem;
+  background: $primary;
+  top: -18rem;
+  left: 5rem;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.moshinacha:after {
+  content: "";
+  position: absolute;
+  top: 7rem;
+  left: -2rem;
+  width: 2rem;
+  height: 1rem;
+  background: $primary;
+  border-top-left-radius: 5rem;
+}
+.moshinacha:before {
+  content: "";
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+  width: 2rem;
+  height: 1rem;
+  background: $primary;
+  border-top-right-radius: 5rem;
+}
+.ustki-bezak {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 8rem;
+  height: 6rem;
+  background: $secondary;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.ustki-bezak:before {
+  content: "";
+  position: absolute;
+  top: 12rem;
+  left: 1;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 8rem;
+  height: 4rem;
+  background: $secondary;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.oyna {
+  position: absolute;
+  top: 7rem;
+  left: 1.5rem;
+  width: 7rem;
+  height: 6rem;
+  background: $secondary;
+  //   border-top-left-radius: 4rem;
+  //   border-top-right-radius: 4rem;
+  //   border-bottom-left-radius: 1rem;
+  //   border-bottom-right-radius: 1rem;
+}
+.oyna::before {
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: rem;
+  left: rem;
+  width: 7rem;
+  height: 1.5rem;
+  background: #000;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+
+.oyna:after {
+  content: "";
+  position: absolute;
+  top: 4.5rem;
+  left: 0rem;
+  width: 7rem;
+  height: 1.5rem;
+  background: #000;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.oyna1 {
+  position: absolute;
+  top: 9rem;
+  left: 3rem;
+  width: 4rem;
+  height: 2rem;
+  background: $primary;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.oyna1:before {
+  position: absolute;
+  top: 8.5rem;
+  left: 1.5rem;
+  width: 1rem;
+  height: 3rem;
+  background: #fff;
+
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.oyna1:after {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 4.5rem;
+  width: 1rem;
+  height: 3rem;
+  background: #000;
+
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.oyna2 {
+  position: absolute;
+  top: 8.5rem;
+  left: 1.5rem;
+  width: 1rem;
+  height: 3rem;
+  background: #000;
+
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.forma {
+  position: relative;
+}
+
+.btn1 {
+  position: absolute;
+  left: 7rem;
+  top: -10rem;
+}
+
+.btn2 {
+  position: absolute;
+  left: 2rem;
+  top: -10rem;
+}
+.btn3 {
+  position: absolute;
+  left: 2rem;
+  top: -13rem;
+}
+.btn4 {
+  position: absolute;
+  left: 7rem;
+  top: -13rem;
+}
+
+.btn5 {
+  position: absolute;
+  left: 3rem;
+  top: -16rem;
+}
+
+.mashinaTayyor {
+  display: none;
+  position: absolute;
+  top: 25rem;
+  left: 30rem;
+}
